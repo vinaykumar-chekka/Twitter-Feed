@@ -1,5 +1,5 @@
 # Twitter-Feed
-It Extracts your Twitter Timeline feed by providing authentication to twitter through OAuth.
+It extracts your Twitter Timeline feed by providing authentication to twitter through OAuth.
 
 # Requirements
   Node.js v5.0.0 and above
