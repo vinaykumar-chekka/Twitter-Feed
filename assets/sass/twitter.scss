@@ -1,0 +1,45 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    &.home-page-container {
+        margin-top: 15%;
+        text-align: center;
+    }
+}
+
+.title {
+    margin: 30px 0;
+}
+.proceed-btn {
+    background-color: #5EA9DD;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border-radius: 6px;
+    padding: 8px 30px;
+    &:hover,
+    &:focus {
+        color: #fff;
+    }
+}
+#twitter {
+    background: #EBF4FB;
+    border-radius: 6px;
+    .feeds{
+        list-style: none;
+        padding: 30px;
+        .feed {
+            border-bottom: 1px solid #ccc;
+            padding: 20px;
+        }
+        .feed-img-container,
+        .feed-info {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .feed-info {
+            margin-left: 30px;
+            width: 86%;
+        }
+    }
+}

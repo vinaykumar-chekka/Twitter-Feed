@@ -1,0 +1,16 @@
+extends layout
+
+block content    
+  .container
+    h1.title Twitter Timeline Feed
+    section#twitter
+
+block page_scripts
+  script(type='text/javascript').
+    (function() {
+      window.feedApp = window.feedApp || {};
+      window.feedApp.Twitter = {
+        data:  !{JSON.stringify(data)}
+      }
+    }());
+  script(type='text/javascript', src='../components/twitter.js')
