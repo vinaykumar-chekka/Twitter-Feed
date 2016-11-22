@@ -5,9 +5,9 @@ It Extracts your Twitter Timeline feed by providing authentication to twitter th
   Node.js v5.0.0 and above
   
 # Installation
-  Clone repo into a folder
-  cd twitter
-  npm install
+  * Clone repo into a folder
+  * cd twitter
+  * npm install
  
 # Build
   gulp
